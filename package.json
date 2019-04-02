@@ -4,7 +4,8 @@
   "description": "browser bookmarks in terminal",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel-node test/test.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,12 @@
   "dependencies": {
     "shelljs": "^0.8.3",
     "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
   }
 }
