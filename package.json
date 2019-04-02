@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ming995/bookmark-terminal/issues"
   },
-  "homepage": "https://github.com/ming995/bookmark-terminal#readme"
+  "homepage": "https://github.com/ming995/bookmark-terminal#readme",
+  "dependencies": {
+    "shelljs": "^0.8.3",
+    "yargs": "^13.2.2"
+  }
 }
